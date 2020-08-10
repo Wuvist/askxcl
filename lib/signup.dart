@@ -169,7 +169,7 @@ class _AnimatedProgressIndicatorState extends State<AnimatedProgressIndicator>
   Widget build(BuildContext context) {
     return AnimatedBuilder(
       animation: _controller,
-      builder: (context, child) => LinearProgressIndicator(
+      builder: (context, child) => CircularProgressIndicator(
         value: _curveAnimation.value,
         valueColor: _colorAnimation,
         backgroundColor: _colorAnimation.value.withOpacity(0.4),
