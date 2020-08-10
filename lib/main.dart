@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'signup.dart';
 
 void main() {
-  runApp(MyApp());
+  // runApp(MyApp());
+  runApp(SignUpApp());
 }
 
 class MyApp extends StatelessWidget {
